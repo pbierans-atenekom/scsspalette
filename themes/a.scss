@@ -1,0 +1,8 @@
+$themes: () !default;
+
+$themes: map-merge($themes, (
+        a:(
+                color1 : red,
+                color2 : crimson
+        )
+));

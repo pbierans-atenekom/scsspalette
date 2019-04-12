@@ -1,0 +1,3 @@
+# scsspalette
+
+proof of concept.

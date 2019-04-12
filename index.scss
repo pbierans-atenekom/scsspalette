@@ -1,0 +1,10 @@
+@import "functions/index";
+@import "themes/index";
+
+@each $themename, $theme in $themes {
+  body[data-theme="#{$themename}"] {
+    background-color: map-deep-get($theme, "color1");
+    color: map-deep-get($theme, "color2");
+  }
+}
+
